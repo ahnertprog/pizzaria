@@ -65,7 +65,7 @@ function closeModal() {
     setTimeout( () =>{
         qsl('.pizzaWindowArea').style.display = 'none';
     }, 200);
-    console.log('fechou!');
+    
 }
 
 qsl('.pizzaInfo--qtmenos').addEventListener('click', () => {
